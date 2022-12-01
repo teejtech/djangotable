@@ -1,0 +1,20 @@
+
+<form action="addrecord/" method="post">
+    {% csrf_token %}
+    First Name:<br>
+    <input name="first">
+    <br><br>
+    Last Name:<br>
+    <input name="last">
+    <br><br>
+    Instrument:<br>
+    <input name="instrument">
+    <br><br>
+    Age:<br>
+    <input name="age">
+    <br><br>
+    Employed:<br>
+    <input name="job">
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>

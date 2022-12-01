@@ -1,0 +1,18 @@
+<h1>Members</h1>
+
+<table border="1">
+{% for x in msanii%}
+<tr>
+<td>{{ x.first_name }}</td>
+<td>{{ x.last_name }}</td>
+<td>{{x.instrument}}</td>
+<td>{{x.age}}</td>
+<td>{{x.emp}}</td>
+<td><a href="delete/{{ x.id }}">delete</a></td>
+<td><a href="update/{{ x.id }}"">update</a></td>
+</tr>
+{% endfor %}
+</table>
+<p>
+    <a href="add">Add member</a>
+</p>

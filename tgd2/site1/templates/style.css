@@ -1,0 +1,21 @@
+
+#landing {
+	text-align: center;
+	background-image: url('./images/bg2.jpeg');
+	background-size: cover;
+	height: 500px;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+table {
+	margin: 20px;
+	padding: 20px
+}
+
+footer {
+	text-align: center;
+}

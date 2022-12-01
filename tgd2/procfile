@@ -1,0 +1,1 @@
+web gunicorn tgd2.wsgi:application --log-file -
